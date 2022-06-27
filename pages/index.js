@@ -1,6 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
+
+import { Button, Navbar } from '../components';
 import styles from '../styles/Home.module.css';
+import Homepage from './homepage/Home-page';
 
 export default function Home() {
   const {} = styles;
@@ -13,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <div className="">this is suleman anwar</div>
+        <Homepage />
       </main>
     </div>
   );

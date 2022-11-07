@@ -6,6 +6,7 @@ export default function Homepage() {
     <div>
       <Navbar />
       <Hero />
+      <h2>hello g</h2>
     </div>
   );
 }
